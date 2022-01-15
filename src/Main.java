@@ -14,5 +14,48 @@ public class Main {
             c) wyświetlić dane z tablicy, użyć pętli for lub forEach
             d) dane powinny być estetycznie przedstawione
          */
-    }
-}
+
+
+        List<student> studentList = new ArrayList<>();
+
+        student student = new student();
+        student.imie = "Kuba";
+        student.nazwisko = "Kuling";
+        student.indeks = 57080;
+        studentList.add(student);
+
+        student = new student();
+        student.imie = "Maciek";
+        student.nazwisko = "adamczyk";
+        student.indeks = 12412;
+        studentList.add(student);
+
+        student = new student();
+        student.imie = "agnieszka";
+        student.nazwisko = "misiewicz";
+        student.indeks = 12451;
+        studentList.add(student);
+        System. out.println(student.toString());
+
+        for (student q : studentList) {
+            System.out.println(q.imie + "--" + q.nazwisko + "--" + q.indeks );
+        }
+        }
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
