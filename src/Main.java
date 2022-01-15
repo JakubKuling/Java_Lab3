@@ -36,6 +36,7 @@ public class Main {
             System.out.println("Liczba:" + liczba);
                 if(liczba == 0) {
                     System.out.println("KONIEC");
+
                    break;
                 }
                 else{
