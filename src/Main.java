@@ -31,6 +31,7 @@ public class Main {
 
         while(true) {
             System.out.print("Podaj liczbe");
+
             int liczba = scan.nextInt();
             System.out.println("Liczba:" + liczba);
                 if(liczba == 0) {
